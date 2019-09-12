@@ -1,0 +1,72 @@
+h1,
+h2 {
+    color: skyblue;
+    font-family: "Comic Sans MS";
+}
+h2 {
+    font-size: 14px;
+}
+td,
+th {
+    border: 1px solid slategrey;
+    padding-left: 2em;
+    margin: 2px;
+}
+
+td {
+    text-align: center;
+
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+    margin-top: 1px;
+}
+
+th[scope="col"] {
+    background-color: black;
+    color: whitesmoke;
+}
+
+th[scope="row"] {
+    background-color: lightslategrey;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+div {
+    padding: 10px;
+    border: solid dimgrey;
+    margin-top: 10px;
+}
+.class_h {
+    color: black;
+    background-color: lightpink;
+    padding-left: 2em;
+}
+.class_f {
+    color: black;
+    background-color: orange;
+    padding-left: 2em;
+}
+.class_g {
+    color: black;
+    background-color: pink;
+    padding-left: 2em;
+}
+.class_c {
+    color: green;
+    background-color: lightcoral;
+    padding-left: 2em;
+}
+
+:any-link {
+    color: currentColor;
+}
+a:hover, a:active {
+    background-color: grey;
+}
